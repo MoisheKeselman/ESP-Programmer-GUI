@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SonoffConfig>
+  <OldFWCB>False</OldFWCB>
+  <ExecPath>C:\Users\RobotDev\Downloads\esptool\esptool.py</ExecPath>
+  <FwPath>C:\Users\RobotDev\Downloads\tasmota.bin</FwPath>
+  <OldFwPath></OldFwPath>
+</SonoffConfig>

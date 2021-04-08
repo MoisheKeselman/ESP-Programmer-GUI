@@ -1,0 +1,17 @@
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\bin\Debug\SonoffUI.exe.config
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\bin\Debug\SonoffUI.exe
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\bin\Debug\SonoffUI.pdb
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\SonoffUI.csprojResolveAssemblyReference.cache
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\MainWindow.g.cs
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\App.g.cs
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\SonoffUI_MarkupCompile.cache
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\SonoffUI_MarkupCompile.lref
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\MainWindow.baml
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\SonoffUI.g.resources
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\SonoffUI.Properties.Resources.resources
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\SonoffUI.csproj.GenerateResource.Cache
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\SonoffUI.exe
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\SonoffUI.pdb
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\Programmer.g.cs
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\RobotDev\Documents\SonoffUI\SonoffUI\obj\Debug\Programmer.baml

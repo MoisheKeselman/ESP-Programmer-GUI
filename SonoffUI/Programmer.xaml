@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="SonoffUI.Programmer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SonoffUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="600"
+             Initialized="onInitialized">
+    <UserControl.Resources>
+        <Style TargetType="ComboBox">
+            <EventSetter Event="SelectionChanged" Handler="onUpdateValue" />
+        </Style>
+        <Style TargetType="TextBox">
+            <EventSetter Event="TextChanged" Handler="onUpdateValue" />
+        </Style>
+        <Style TargetType="CheckBox">
+            <EventSetter Event="Checked" Handler="onUpdateValue" />
+            <EventSetter Event="Unchecked" Handler="onUpdateValue" />
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="AliceBlue">
+        <TextBlock x:Name="ComPortTextBlock" Text="COM port:" Width="100" Height="20" Margin="125,74,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <ComboBox x:Name="ComPortComboBox" Width="100" Height="20" Margin="230,74,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" DropDownOpened="onComPortSelect">
+
+        </ComboBox >
+
+        <TextBlock x:Name="ExecutableTextBlock" Text="ESPtool Executable:" Height="20" Margin="49,134,0,0" RenderTransformOrigin="0.351,0.558" HorizontalAlignment="Left" Width="110" VerticalAlignment="Top" />
+        <TextBox x:Name="ExecutableTextBox" Width="300" Height="20" Margin="170,134,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Button x:Name="ExecutableSelectButton" Content="Select" Width="50" Height="20" Margin="485,134,0,0" Click="onBrowseExecutable" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <TextBlock x:Name="FirmwareTextBlock" Text="Firmware (.bin):" Height="20" Margin="77,178,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="88"/>
+        <TextBox x:Name="FirmwareTextBox" Width="300" Height="20" Margin="170,178,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Button x:Name="FirmwareSelectButton" Content="Select" Width="50" Height="20" Margin="485,178,0,0" Click="onBrowseFirmware" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <TextBlock x:Name="OldFirmwareTextBlock" Text="Save firmware on chip:" Width="129" Height="20" Margin="20,223,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <CheckBox x:Name="OldFirmwareCheckBox" Width="20" Height="20" Margin="145,223,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <TextBox x:Name="OldFirmwareTextBox" Width="300" Height="20" Margin="170,223,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"  />
+        <Button x:Name="OldFirmwareSelectButton" Content="Select" Width="50" Height="20" Margin="485,223,0,0" Click="onBrowseOldFirmware" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <Button x:Name="ProgramButton" Content="Program" Width="100" Height="20" Margin="205,272,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="onProgram"/>
+    </Grid>
+</UserControl>
